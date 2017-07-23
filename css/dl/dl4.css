@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+header {
+  margin-left: 0.45rem;
+  margin-right: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 2.15rem;
+  text-align: center;
+  position: relative; }
+  header a {
+    position: absolute;
+    left: 0; }
+    header a img {
+      width: 0.45rem; }
+  header p {
+    font-size: 0.75rem; }
+
+ul {
+  margin-left: 0.45rem;
+  margin-right: 0.5rem;
+  padding-bottom: 1.05rem; }
+  ul li:first-child {
+    font-size: 0.75rem;
+    padding-bottom: 1.5rem; }
+  ul li:last-child {
+    border-bottom: solid #ffeab2 1px;
+    display: flex;
+    justify-content: space-around; }
+    ul li:last-child input {
+      background: url(../../img/dl/dl4-img1.png) no-repeat;
+      background-size: 0.7rem;
+      font-size: 0.625rem;
+      padding-left: 1rem;
+      width: 80%;
+      padding-bottom: 0.6rem;
+      outline: none;
+      box-shadow: none; }
+    ul li:last-child span {
+      display: inline-block;
+      font-size: 0.8rem;
+      text-align: center;
+      line-height: 0.85rem;
+      color: orange; }
+
+.xyb {
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+  background: #ffc830;
+  border-radius: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.45rem;
+  text-align: center; }
+  .xyb a {
+    font-size: 0.625rem;
+    color: white;
+    text-decoration: none; }
+
+.box {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 1;
+  display: none; }
+
+.tk {
+  text-align: center;
+  width: 80%;
+  font-size: 0.75rem;
+  padding-top: 1.15rem;
+  border-radius: 20px;
+  overflow: hidden;
+  background: white;
+  position: absolute;
+  top: 7rem;
+  left: 1.5rem;
+  display: none; }
+  .tk h3 {
+    padding-bottom: 1rem; }
+  .tk p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background: #ffc830;
+    margin: 0; }
+    .tk p a {
+      text-decoration: none;
+      color: black; }
+
+/*# sourceMappingURL=dl4.img.map */

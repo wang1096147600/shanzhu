@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html ng-app="ctrl">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+		<meta name="format-detection" content="telephone=no email=no"/>
+		<title></title>
+<link rel="stylesheet" type="text/css" href="../../css/userinfo/user.css"/>
+		
+	</head>
+	<body ng-controller="test">
+		<header>
+			<div class="top">
+				<div class="left">
+					<a href="../xu/html/use2.html">
+						<img src="img/jt2.png"/>
+					</a>
+				</div>
+				<div class="center">新增应用</div>
+				<div></div>
+			</div>
+			
+			
+			
+			<div class="logo">
+				<div>
+					<img src="img/xz.png"/>
+				</div>
+				<div>
+					<p>新增应用即送</p>
+					<p>100条短信、100条闪注量</p>
+				</div>
+			</div>
+			
+</header>
+		
+		
+		
+<div class="content">
+	        <div class="top">
+	        	<div class="t-nav">应用信息</div> 
+	           
+	           <div>
+	           	  <div class="t-bar">
+	            	<div class="left">
+	            		<div><img src="{{arr.img}}"/></div>
+	            		<div>{{arr.con}}</div>
+	            	</div>
+	            	<div class="right">
+	            		<div>
+	            			<input type="text" placeholder="{{arr.con1}}" />
+	            		</div>
+	            		
+	            		<a>
+	            			<img src="{{arr.img1}}"/>
+	            		</a>
+	            	</div>
+	            </div>
+	            
+	            
+	            <div class="t-bar1">
+	            	<div class="left">
+	            		<div><img src="{{arr1.img}}"/></div>
+	            		<div>{{arr1.con}}</div>
+	            	</div>
+	            	<div class="right">
+	            		<div>
+	            			<input type="text" placeholder="{{arr1.con1}}" />
+	            		</div>
+	            		
+	            		<a>
+	            			<img src="{{arr1.img1}}"/>
+	            		</a>
+	            	</div>
+	            </div>
+	           </div>
+	           
+	
+		</div>
+			
+		
+		
+		 <div class="bottom">
+	        	<div class="t-nav">APP信息</div> 
+	           
+	      <div>
+	           	  <div class="t-bar">
+	            	<div class="left">
+	            		
+	            		<div>{{arr2.con}}</div>
+	            	</div>
+	            	<div class="right">
+	            		<div>
+	            			<input type="text" placeholder="{{arr2.con1}}" />
+	            		</div>
+	            		
+	            		<a>
+	            			<img src="{{arr2.img1}}"/>
+	            		</a>
+	            	</div>
+	            </div>
+	            
+	            
+	            <div class="t-bar1">
+	            	<div class="left">
+	            		
+	            		<div>{{arr3.con}}</div>
+	            	</div>
+	            	<div class="right">
+	            		<div>
+	            			<input type="text" placeholder="{{arr3.con1}}" />
+	            		</div>
+	            		
+	            		<a>
+	            			<img src="{{arr3.img1}}"/>
+	            		</a>
+	            	</div>
+	            </div>
+	            
+	            
+	             <div class="t-bar2">
+	            	<div class="left">
+	            		
+	            		<div>{{arr4.con}}</div>
+	            	</div>
+	            	<div class="right">
+	            		<div>
+	            			<input type="text" placeholder="{{arr4.con1}}" />
+	            		</div>
+	            		
+	            		<a>
+	            			<img src="{{arr4.img1}}"/>
+	            		</a>
+	            	</div>
+	            </div>
+	            
+	             <div class="t-bar3">
+	            	<div class="left">
+	            		
+	            		<div>{{arr5.con}}</div>
+	            	</div>
+	            	<div class="right">
+	            		<div>
+	            			<input type="text" placeholder="{{arr5.con1}}" />
+	            		</div>
+	            		
+	            		<a>
+	            			<img src="{{arr5.img1}}"/>
+	            		</a>
+	            	</div>
+	           </div>
+			
+			
+			 <div class="t-bar4">
+	            	<p>{{arr6.con}}</p>
+	            	<p >{{arr6.con1}}</p>
+	           </div>
+		
+		 <div class="t-bar5">
+	            	<div class="left">
+	            		
+	            		<div>{{arr7.con}}</div>
+	            	</div>
+	            	<div class="right">
+	            		<div>
+	            			<input type="text" placeholder="{{arr7.con1}}" />
+	            		</div>
+	            		
+	            		<a>
+	            			<img src="{{arr7.img1}}"/>
+	            		</a>
+	            	</div>
+	           </div>
+			
+		
+		<div class="t-bar6">
+			<a href="../xu/html/use1.html">提交</a>	
+		</div>
+		
+		</div>
+	</div>
+		
+</div>
+	<script src="../../js/angular-1.0.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../js/userinfo/index.js" type="text/javascript" charset="utf-8"></script>
+	
+	<script>
+		var app=angular.module("ctrl",[])
+		app.controller("test",function($scope,$http){
+			$http.get("user.json").success(function(data){
+				  $scope.arr=data.user
+				 $scope.arr1=data.user1
+				 $scope.arr2=data.user2
+				 $scope.arr3=data.user3
+				 $scope.arr4=data.user4
+				 $scope.arr5=data.user5
+				 $scope.arr6=data.user6
+				 $scope.arr7=data.user7
+				  
+
+				
+			})
+		})
+	</script>
+	</body>
+</html>

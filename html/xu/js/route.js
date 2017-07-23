@@ -1,0 +1,12 @@
+app.config(['$routeProvider',function(route){
+    route.when('/yi',{
+        templateUrl:'statistics1.html',
+        controller:"yan",
+    }).when('/er',{
+        templateUrl:'statistics2.html'
+    }).when('/san',{
+        templateUrl:'statistics3.html'
+    }).otherwise({
+        redirectTo:'/yi'
+    })
+}]);

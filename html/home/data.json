@@ -1,0 +1,16 @@
+{
+   "zhuce":[
+   {"title":"../xu/html/use2.html",
+      "img":"img/yy.png","con":"应用信息","con1":"账户款共计3款应用","img1":"img/jt.png"},
+
+   {"title":"../xu/html/statistics.html",
+      "img":"img/tj.png","con":"注册量统计","con1":"今日注册468人","img1":"img/jt.png"},
+
+   {"title":"../info/info4.html",
+      "img":"img/xtsz.png","con":"账户信息","con1":"","img1":"img/jt.png"},
+   {"title":"../set/set3.html",
+      "img":"img/tj.png","con":"系统设置","con1":"","img1":"img/jt.png"}
+   ]
+  
+   
+}

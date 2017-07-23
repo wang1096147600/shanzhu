@@ -1,0 +1,96 @@
+html.body {
+  width: 100%;
+  box-sizing: border-box; }
+
+header {
+  height: 3.5rem;
+  background: #ffac2c;
+  position: relative;
+  text-align: center;
+  line-height: 3.5rem;
+  font-size: 1.3rem;
+  color: #fff; }
+
+header a {
+  display: block;
+  width: 2.3rem;
+  height: 1.5rem;
+  background: url(../../img/icon-1.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0.5rem;
+  top: 1rem; }
+
+body {
+  background: #EEEEEE; }
+
+.nav, .nav .nav_left {
+  display: flex;
+  justify-content: space-around; }
+
+.nav {
+  background: white;
+  margin: 1rem 0; }
+  .nav .nav_left {
+    padding: 0.5rem 0;
+    flex: 1; }
+    .nav .nav_left .nav_logo {
+      flex: 1;
+      width: 5rem;
+      height: 5rem;
+      line-height: 5rem;
+      text-align: center; }
+      .nav .nav_left .nav_logo img {
+        width: 60%; }
+    .nav .nav_left .urse {
+      flex: 1;
+      font-size: 1.4rem;
+      line-height: 2rem;
+      margin-top: 0.5rem; }
+      .nav .nav_left .urse .person a {
+        background: #ffcc00 url("../../img/set/1.png") no-repeat 5px 3px;
+        background-size: 17%;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        color: white;
+        display: block;
+        text-align: right;
+        border-radius: 3px;
+        padding-right: 0.3rem;
+        margin-right: 1rem; }
+  .nav .nav_right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; }
+    .nav .nav_right .red {
+      font-size: 1.4rem;
+      line-height: 2.5rem; }
+      .nav .nav_right .red a {
+        padding-right: 1rem;
+        color: #ff9933; }
+        .nav .nav_right .red a .grey {
+          color: #CCCCCC;
+          font-weight: bold;
+          text-align: right; }
+
+.ul_list ul li {
+  display: flex;
+  justify-content: space-between; }
+
+.ul_list ul li {
+  margin: 1rem 0;
+  background: white;
+  padding: 0 1.8rem;
+  font-size: 1.2rem;
+  line-height: 3.6rem;
+  color: #333333; }
+  .ul_list ul li .grey {
+    color: #CCCCCC;
+    font-weight: bold;
+    font-size: 1.4rem; }
+.ul_list li:last-child {
+  text-align: center; }
+  .ul_list li:last-child a {
+    display: block;
+    width: 100%; }

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html ng-app="ctrl">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+		<meta name="format-detection" content="telephone=no email=no"/>
+		<title></title>
+<link rel="stylesheet" type="text/css" href="../../css/home/home.css"/>
+	</head>
+	<body ng-controller="test">
+		<header>
+			
+			   <div class="h-top">
+				<img src="img/sz.png" alt=""/>
+			   </div>
+			 <div class="h-bottom">
+				<span>SZ1049</span>
+				<span>个人用户</span>
+			 </div>
+			
+			
+		</header>
+		
+		
+		
+		<div class="content">
+	<div class="nav">
+			<div class="nav-left">
+				<p>账户共计应用</p>
+				<p>共<span>3</span>(款应用)</p>
+			</div>
+			
+			<div class="nav-right">
+				<p>近七日注册量</p>
+				<p><img src="img/tjb.png"/></p>
+			</div>
+	 </div>
+			
+		<div class="nav-bar"></div>	
+			
+	<div class="nav-bottom">
+		<!--前两个-->
+		<!--<div class="b-top">-->
+			<div class="top-nav"ng-repeat="i in arr">
+				<div class="left">
+					<div>
+							<img src="{{i.img}}"/>
+					</div>
+					<div>{{i.con}}</div>
+				</div>
+				
+				<div class="right">
+					<div>{{i.con1}}</div>
+					<div>
+						<a href="{{i.title}}">
+							<img src="{{i.img1}}"/>
+						</a>			
+						<a href="../xu/html/use2.html"></a>
+					</div>
+				</div>
+			<!--</div>-->
+		</div>
+	</div>		
+</div>
+	<script src="../../js/home/angular.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../js/home/index.js" type="text/javascript" charset="utf-8"></script>
+<script>
+		var app=angular.module("ctrl",[])
+		app.controller("test",function($scope,$http){
+			$http.get("data.json").success(function(data){
+				  $scope.arr=data.zhuce
+				
+			})
+		})
+	</script>
+	</body>
+</html>

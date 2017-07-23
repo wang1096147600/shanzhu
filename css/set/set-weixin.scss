@@ -1,0 +1,86 @@
+html.body{
+    width: 100%;
+    box-sizing: border-box;
+}
+header{
+    height: 3.5rem;
+    background: #ffac2c;
+    position: relative;
+    text-align: center;
+    line-height: 3.5rem;
+    font-size: 1.3rem;
+    color: #fff;
+}
+header a {
+    display: block;
+    width: 2.3rem;
+    height: 1.5rem;
+    background: url(../../img/icon-1.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0.5rem;
+    top: 1rem;
+}
+
+.more{
+    height: 3.8rem;
+    line-height: 3.8rem;
+    background: #F5F5F5;
+    p{
+        color: #888888;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}
+.main{
+    width: 100%;
+    .main_in{
+        width: 90%;    
+        margin: 0 auto ; 
+        .title{
+            color: #282828;
+            font-size: 1.4rem;
+            height: 4.8rem;
+            line-height: 4.8rem;
+            .red{
+                color: #ff6633;
+                font-size: 1.8rem;
+            }
+        }  
+        .tips_content{
+            position: relative;
+            .tips{
+                position: absolute;
+                top:0;
+                left: 0;
+                background: url("../../img/set/tips-1.png") no-repeat -0.1rem 0.5rem;
+                background-size:90% ;
+                width: 5.5rem;
+                height: 2.5rem;
+            }
+        .content{
+            margin: 0 auto;
+            padding: 2.8rem 3.5rem 1.4rem 1.5rem;
+            background: #ffcc99;
+            width: 80%;
+            border-radius: 0.5rem;
+            .orange{
+                color: #ff6633;
+                line-height:2.4rem ;
+                font-size: 1.2rem;
+                .red{
+                    color: #ff6633;
+                }
+             }
+          }
+        }
+        .coke{
+            width: 50%;
+            margin: 0 auto;
+            padding: 3.5rem  0;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

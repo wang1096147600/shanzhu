@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+   <link rel="stylesheet" type="text/css" href="../../css/dl/dl4.css"/>
+   <link rel="stylesheet" type="text/css" href="../../Font/demo-files/demo.css"/>
+ 
+    <script src="../../js/jquery-3.1.1.js"></script>
+    <script type="text/javascript">
+   
+$(function(){
+	(function(win,doc){
+		//浏览器缩放时
+		win.onresize=function(){
+			change();	
+		};
+		change();
+		function change(){
+			
+			var oFs=doc.documentElement.clientWidth/(320/20);
+	
+			//设置根目录字体大小
+			doc.documentElement.style.fontSize=oFs+'px';	
+		}		
+		
+		var flag=true;
+		
+		$("#name1").click(function(){
+			flag=!flag;
+//			console.log(flag)
+			if(flag==true){
+				$(this).attr("class","icon icon-eye-blocked");
+				$("#name").attr("type","password");
+				
+			}else{
+				$(this).attr("class","icon icon-eye");
+				$("#name").attr("type","text");
+			}
+		})
+		
+		$("#oxyb").click(function(){
+        $("#otk").css("display","block");
+        $("#obox").css({"display":"block","opacity":"0.4"})
+	})
+    $("#oqx").click(function(){
+    	$("#otk").css("display","none");
+        $("#obox").css({"display":"none","opacity":"0"})
+    })
+		
+	})(window,document);
+})
+    </script>
+</head>
+	<body>
+		<header>
+			<a href="dl3.html"><img src="../../img/dl/dl2-img2.png"></a>
+			<p>忘记密码</p>
+		</header>
+		
+		<ul>
+			<li>重置您的登录密码</li>
+			<li>
+				<input type="password" placeholder="请输入与6-27位的登录密码" id="name"/>
+				<span class="icon icon-eye-blocked" id="name1"></span>
+			</li>
+		</ul>
+		<div class="xyb"  id="oxyb">
+			<a>下一步</a>
+		</div>
+		
+		<div class="box" id="obox">
+			
+		</div>
+		
+		<div class="tk" id="otk">
+			<h3>重置密码成功，请重新登陆</h3>
+				<p><a href="../../index.html">确定</a></p>
+			
+		</div>
+		
+	</body>
+</html>
+

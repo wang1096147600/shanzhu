@@ -1,0 +1,10 @@
+{"user":{"img":"img/wj.png","con":"接口密码","con1":"SDK或者接口密码","img1":"img/jt.png"},
+ "user1":{"img":"img/wj.png","con":"通信密钥","con1":"SDK或者接口密码通信加解解密密钥","img1":"img/jt.png"},
+ "user2":{"con":"名称","con1":"APP的名称","img1":"img/jt.png"},
+ "user3":{"con":"包名","con1":"APP的真实名称包名","img1":"img/jt.png"},
+ "user4":{"con":"LOGO文件","con1":"图片类型jpg、png大小1M","img1":"img/jt.png"},
+ "user5":{"con":"APP截图","con1":"图片类型jpg、png大小1M","img1":"img/jt.png"},
+"user6":{"con":"H5/web截图","con1":"用户注册发送的短信(此信为前缀,后跟校验码)"},
+"user7":{"con":"短信内容","con1":"长度不得超过20个字","img1":"img/jt.png"}
+
+}

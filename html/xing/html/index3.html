@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/index3.css"/>
+		<link rel="stylesheet" type="text/css" href="../js/font-awesome-4.7.0/css/font-awesome.min.css"/>
+	</head>
+	<body>
+		<header>
+			<a href="index.html">
+				<span class="fan"><</span>
+			</a>
+			
+			<p>余额转换</p>
+			<span> </span>
+		</header>
+		
+		
+		<div class="content">
+			<div class="content_1">
+				<img src="../img/duan3.png" />
+				<img src="../img/yuezh.png" style="width:208px;"/>
+				<img src="../img/shan3.png" />
+			</div>
+			<p>你可以将短信量转换为闪注量</p>
+		</div>
+		
+		
+		<div class="content_2">
+			<p>当前短信账户余额为：100条</p>
+		</div>
+		
+		
+		<footer>
+			<div class="sdiv clearfix">
+				<p>短信息</p>
+				<p style="margin-left:35px;color: #959595;">您最多可转换短信量100条</p>
+			</div>
+			
+			<div class="xdiv clearfix">
+				<p>闪注量</p>
+				<p style="margin-left:35px;color: #959595;">0</p>
+			</div>
+			
+			
+			<input type="button" value="余额转换" id="btn"/>
+		</footer>
+		
+		
+		
+		
+		<div class="show" id="show">
+			<p>余额转换成功！</p>
+				
+			<button id="btn2">确定</button>
+		</div>
+		
+		
+		
+		
+	</body>
+	<script>
+		(function(win,doc){
+        //浏览器缩放时
+        win.onresize=function(){
+            change();
+        };
+        change();
+        function change(){
+            var oFs=doc.documentElement.clientWidth/(320/20);
+            //设置根目录字体大小
+            doc.documentElement.style.fontSize=oFs+'px';
+        }
+    })(window,document);
+   	var btn=document.getElementById("btn")
+   	var btn2=document.getElementById("btn2")
+    var show=document.getElementById("show")
+   
+   	btn.onclick=function(){
+    	show.style.display="block"
+    }
+    btn2.onclick=function(){
+    	show.style.display="none"
+    }
+    
+	</script>
+</html>

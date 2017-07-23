@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/app.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/use2.css"/>
+		<script src="../js/angular-1.4.6.min.js"></script>
+		<script src="../js/use2-controller.js"></script>
+		<script src="../js/app.js"></script>
+		
+	</head>
+	<body ng-controller="yan">
+		<header>
+			<div class="header-nav">
+				<p>
+					<a href="../../../html/home/home.html">
+					&lt;
+				</a>
+					
+				</p>
+				<p>应用信息</p>
+				<p>
+					<a href="../../userinfo/user.html">
+					新增应用
+				</a>
+				</p>
+			</div>
+		</header>
+		<a href="../../xing/html/index.html">
+		<div class="le" ng-repeat="item in shuju.div1">
+			<div class="left">
+				<img src="../img/statistics/{{item.tu}}" />
+			</div>
+			<div class="right">
+				<p>{{item.name1}}<span>{{item.name2}}</span></p>
+				<p>{{item.name3}}</p>
+			</div>
+		</div>
+		
+		</a>
+		
+		<div class="box">
+			<p>应用名称：<span>开心消消乐</span></p>
+			<p>通信秘钥：<span>xxxxx</span></p>
+			<p>有效时间：<span>2016/7/1-2017/7/1</span></p>
+			<p>应用场景：<span>App、H5web</span></p>
+			<p>闪注注册量：151(人)<span>短信注册量：89(人)</span></p>
+		</div>
+		<div class="le" ng-repeat="item in shuju.div2">
+			<div class="left">
+				<img src="../img/statistics/{{item.tu}}" />
+			</div>
+			<div class="right">
+				<p>{{item.name1}}<span>{{item.name2}}</span></p>
+				<p>{{item.name3}}</p>
+			</div>
+		</div>
+		<div class="le" ng-repeat="item in shuju.div3">
+			<div class="left">
+				<img src="../img/statistics/{{item.tu}}" />
+			</div>
+			<div class="right">
+				<p>{{item.name1}}<span>{{item.name2}}</span></p>
+				<p>{{item.name3}}</p>
+			</div>
+		</div>
+	</body>
+</html>

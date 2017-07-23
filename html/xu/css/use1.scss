@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    background-color: #ffac2c;
+     .header-nav{
+        display: flex;
+        font-size: 20px;
+        color: white;
+        p:nth-of-type(1){
+                padding: 0.25rem 0 0.18rem 0.3rem;
+                a{
+                    color: white;
+                }
+        }
+        p:nth-of-type(2){
+                padding: 0.25rem 1.65rem 0.25rem 1.5rem;
+        }
+    }
+}
+.tu{
+    width: 3.15rem;
+    margin: 0 auto;
+    margin-top: 0.65rem;
+    img{
+        width: 3.15rem;
+    }
+    
+}
+.zi{
+    p{
+    text-align: center;
+    font-size: 16px;
+    color: gray;
+}
+p:nth-of-type(1){
+    font-size: 14px;
+    padding-top: 0.52rem;
+}
+p:nth-of-type(2){
+    font-size: 14px;
+    padding-top: 0.33rem;
+}
+}

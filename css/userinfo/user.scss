@@ -1,0 +1,596 @@
+@charset "utf-8";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background: #F5F5F5;
+}
+
+header{
+    width: 100%;
+    height: 5.5rem;
+    background:#F95A2A;
+    padding-top: 0.7rem;
+    
+    
+    .top{
+        width: 100%;
+        display: flex;
+       align-items: center;
+       justify-content: space-between;
+      padding-left: 0.5rem;
+      padding-right: 0.7rem;
+         .left{
+        
+        width: 0.6rem;
+        height: 0.85rem;
+        line-height: 0.85rem;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .center{
+        color: white;
+        font-size: 0.7rem;
+    }
+    }
+    
+    
+    .logo{
+        width: 100%;
+        height:3.8rem;
+        background: #FA5A2A;
+        display: flex;
+        padding-top:1rem;
+        
+        div{
+            &:nth-child(1)
+            {
+               margin-left:1.85rem; 
+                width:4.05rem;
+                height:2.55rem;
+               img{
+                   width: 100%;
+                   height: 100%;
+               } 
+            }
+        }
+        
+        
+        &:nth-child(2)
+            {
+               p{
+                   color: #F9E8A2;
+                   &:nth-child(1)
+                   {
+                       padding-left: 2.85rem;
+                       font-size: 0.75rem;
+                   }
+                     &:nth-child(2)
+                   {
+                       padding-left: 1.3rem;
+                       font-size: 0.7rem;
+                   }
+               }
+        }
+    }
+   
+ }
+ 
+
+.content{
+    width: 100%;
+    .top{
+        width: 100%;
+        .t-nav{
+            width: 100%;
+            height: 1.7rem;
+            font-size: 0.55rem;
+            color: #BDBDBD;
+            padding-top: 0.55rem;
+            padding-left: 1rem;
+           
+        }
+        
+        .t-bar{
+            width: 100%;
+            height:1.95rem;
+            background: white;
+            border: 1px solid #F5F5F5;
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+           padding-left: 1rem;
+           padding-right:0.25rem ;
+            
+            .left{
+                display: flex;
+                
+                div{
+                    &:nth-child(2)
+                    {
+                        
+                        font-size: 0.6rem;
+                    }
+                    &:nth-child(1)
+                    {
+                        
+                       width: 0.25rem;
+                       height: 0.25rem;
+                       line-height: 0.25rem;
+                       img{
+                           width: 100%;
+                           height: 100%;
+                       }
+                    }
+                    
+                }
+            }
+            
+           .right{
+            
+               display: flex;
+               align-items: center;
+               
+               a{
+                  margin-left: 0.4rem;
+                   width: 0.4rem;
+                   height: 0.75rem;
+                   line-height: 0.75rem;
+                  
+                   img{
+                       width: 100%;
+                       height:100%;
+                   }
+               }
+               div{
+                   input{
+                       display: inline-block;
+                        border: none;
+                        font-size: 0.5rem;
+                        width: 4.9rem;
+                        height: 1.95rem;
+                       
+                
+                       
+                      
+                       
+                   }
+                  
+               }
+           } 
+            
+            
+            
+            
+        }
+        
+        .t-bar1{
+            width: 100%;
+            height:1.95rem;
+            background: white;
+            border: 1px solid #F5F5F5;
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+           padding-left: 1rem;
+           padding-right:0.25rem ;
+            
+            .left{
+                display: flex;
+                
+                div{
+                    &:nth-child(2)
+                    {
+                        
+                        font-size: 0.6rem;
+                    }
+                    &:nth-child(1)
+                    {
+                        
+                       width: 0.25rem;
+                       height: 0.25rem;
+                       line-height: 0.25rem;
+                       img{
+                           width: 100%;
+                           height: 100%;
+                       }
+                    }
+                    
+                }
+            }
+            
+           .right{
+            
+               display: flex;
+               align-items: center;
+               
+               a{
+                  margin-left: 0.4rem;
+                   width: 0.4rem;
+                   height: 0.75rem;
+                   line-height: 0.75rem;
+                  
+                   img{
+                       width: 100%;
+                       height:100%;
+                   }
+               }
+               div{
+                   input{
+                       display: inline-block;
+                        border: none;
+                        font-size: 0.5rem;
+                        width:7.9rem;
+                        height: 1.95rem;
+                       }
+                
+                       
+                      
+                       
+                   
+                  
+               }
+           } 
+            
+          }
+        
+        
+    }
+    
+    .bottom{
+        width: 100%;
+        .t-nav{
+            width: 100%;
+            height: 1.7rem;
+            font-size: 0.55rem;
+            color: #BDBDBD;
+            padding-top: 0.55rem;
+            padding-left: 1rem;
+           
+        }
+        
+        .t-bar{
+            width: 100%;
+            height:1.95rem;
+            background: white;
+            border: 1px solid #F5F5F5;
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+           padding-left: 1rem;
+           padding-right:0.25rem ;
+            
+            .left{
+                display: flex;
+                
+                div{
+                   
+                        
+                        font-size: 0.6rem;
+                    
+                    }
+                    
+                }
+            }
+            
+           .right{
+            
+               display: flex;
+               align-items: center;
+               
+               a{
+                  margin-left: 0.4rem;
+                   width: 0.4rem;
+                   height: 0.75rem;
+                   line-height: 0.75rem;
+                  
+                   img{
+                       width: 100%;
+                       height:100%;
+                   }
+               }
+               div{
+                   input{
+                       display: inline-block;
+                        border: none;
+                        font-size: 0.5rem;
+                        width: 3rem;
+                        height: 1.95rem;
+                       
+                           }
+                  
+               }
+           } 
+            
+         .t-bar1{
+            width: 100%;
+            height:1.95rem;
+            background: white;
+            border: 1px solid #F5F5F5;
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+           padding-left: 1rem;
+           padding-right:0.25rem ;
+            
+            .left{
+                display: flex;
+                
+                div{
+                   
+                        
+                        font-size: 0.6rem;
+                    
+                    }
+                    
+                }
+                
+                
+                 .right{
+            
+               display: flex;
+               align-items: center;
+               
+               a{
+                  margin-left: 0.4rem;
+                   width: 0.4rem;
+                   height: 0.75rem;
+                   line-height: 0.75rem;
+                  
+                   img{
+                       width: 100%;
+                       height:100%;
+                   }
+               }
+               div{
+                   input{
+                       display: inline-block;
+                        border: none;
+                        font-size: 0.5rem;
+                        width:5.5rem;
+                        height: 1.95rem;
+                       
+                           }
+                  
+               }
+            }
+            
+          
+           } 
+            
+            
+ .t-bar2{
+            width: 100%;
+            height:1.95rem;
+            background: white;
+            border: 1px solid #F5F5F5;
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+           padding-left: 1rem;
+           padding-right:0.25rem ;
+            
+            .left{
+                display: flex;
+                
+                div{
+                   
+                        
+                        font-size: 0.6rem;
+                    
+                    }
+                    
+                }
+                
+                
+                 .right{
+            
+               display: flex;
+               align-items: center;
+               
+               a{
+                  margin-left: 0.4rem;
+                   width: 0.4rem;
+                   height: 0.75rem;
+                   line-height: 0.75rem;
+                  
+                   img{
+                       width: 100%;
+                       height:100%;
+                   }
+               }
+               div{
+                   input{
+                       display: inline-block;
+                        border: none;
+                        font-size: 0.5rem;
+                        width:7rem;
+                        height: 1.95rem;
+                       
+                           }
+                  
+               }
+            }
+            
+          
+           } 
+            
+              .t-bar3{
+            width: 100%;
+            height:1.95rem;
+            background: white;
+            border: 1px solid #F5F5F5;
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+           padding-left: 1rem;
+           padding-right:0.25rem ;
+            
+            .left{
+                display: flex;
+                
+                div{
+                   
+                        
+                        font-size: 0.6rem;
+                    
+                    }
+                    
+                }
+                
+                
+                 .right{
+            
+               display: flex;
+               align-items: center;
+               
+               a{
+                  margin-left: 0.4rem;
+                   width: 0.4rem;
+                   height: 0.75rem;
+                   line-height: 0.75rem;
+                  
+                   img{
+                       width: 100%;
+                       height:100%;
+                   }
+               }
+               div{
+                   input{
+                       display: inline-block;
+                        border: none;
+                        font-size: 0.5rem;
+                        width:7rem;
+                        height: 1.95rem;
+                       
+                           }
+                  
+               }
+            }
+            
+          
+           }  
+           
+           
+        .t-bar4{
+            width: 100%;
+            height: 1.7rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+//          padding-left: 0.15rem;
+           p{
+                      
+              &:nth-child(1)
+              {
+         
+                  width: 22%;
+                   font-size: .1rem;
+                   color: #BDBDBD;
+              }
+              &:nth-child(2)
+              {
+                    width: 78%;
+                   font-size:.01rem;
+                   color:red;
+              }
+          
+              }
+             
+       
+           
+        }
+        
+        
+        .t-bar5{
+            width: 100%;
+            height:1.95rem;
+            background: white;
+            border: 1px solid #F5F5F5;
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+           padding-left: 1rem;
+           padding-right:0.25rem ;
+            
+            .left{
+                display: flex;
+                
+                div{
+                   
+                        
+                        font-size: 0.6rem;
+                    
+                    }
+                    
+                }
+                
+                
+                 .right{
+            
+               display: flex;
+               align-items: center;
+               
+               a{
+                  margin-left: 0.4rem;
+                   width: 0.4rem;
+                   height: 0.75rem;
+                   line-height: 0.75rem;
+                  
+                   img{
+                       width: 100%;
+                       height:100%;
+                   }
+               }
+               div{
+                   input{
+                       display: inline-block;
+                        border: none;
+                        font-size: 0.5rem;
+                        width:5.5rem;
+                        height: 1.95rem;
+                       
+                           }
+                  
+               }
+            }
+            
+          
+           } 
+        
+         .t-bar6{
+             width: 96%;
+             height: 1.5rem;
+             line-height: 1.5rem;
+             
+             background: #FED555;
+             margin:0 auto;
+             font-size: 0.6rem;
+             text-align: center;
+             border-radius: 10px;
+             a{
+                 color: white;
+             }
+         }
+        
+        
+                   
+           
+                    
+        }
+        
+      
+        
+    
+    
+    
+}

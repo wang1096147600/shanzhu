@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html body{
+    width: 100%;
+    background: #f5f5f5;
+    box-sizing: border-box;
+
+}
+header{
+    height: 3.5rem;
+    background: #ffac2c;
+    position: relative;
+    text-align: center;
+    line-height: 3.5rem;
+    font-size: 1.3rem;
+    color: #fff;
+}
+header span{
+    font-weight: 100;
+}
+header a {
+    display: block;
+    width: 2.3rem;
+    height: 1.5rem;
+    background: url("../../img/pass/icon-1.png");
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0.5rem;
+    top: 1rem;
+}
+section div:nth-of-type(1),.section_bor{
+    border-bottom: 0.05rem solid #CCCCCC;
+}
+
+section div:nth-of-type(1) p{
+    padding: 1.5rem 0 1rem 1.5rem;
+    color: #818181;
+    font-weight: 100;
+}
+section div:nth-of-type(1) div{
+    padding: 1.5rem 0 1rem 1.5rem;
+    color: #818181;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+img{
+    display: block;
+}
+section div:nth-of-type(2){
+    background: #fff;
+}
+section div:nth-of-type(2) div{
+    padding: 1.25rem 0 1.25rem 1.5rem ;
+    display: flex;
+    position: relative;
+    font-weight: 100;
+    font-size: 0.9rem;
+    color: #9a9a9a;
+}
+section div:nth-of-type(2) div input{
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 100;
+    padding-left: 0.5rem;
+}
+/*section div:nth-of-type(2) div a{*/
+    /*width: 2rem;*/
+    /*height:1.25rem;*/
+    /*background: url("../img/look.png");*/
+    /*background-size: 100% 100% ;*/
+    /*position: absolute;*/
+    /*right: 1.25rem;*/
+    /*top: 1.35rem;*/
+/*}*/
+section div:nth-of-type(3){
+    border: none;
+    /*width: 30rem;*/
+    height: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    background: #fed555;
+    border-radius: 0.25rem;
+    margin: 1.75rem 1rem;
+}
+section div:nth-of-type(3) a{
+    text-decoration: none;
+    color: #fff;
+}
+.right a{
+    width: 0.75rem;
+    height: 1.1rem;
+    background: url("../../img/pass/right.png");
+    background-size: 100% 100%;
+    position: absolute;
+    right: 1.5rem;
+    top: 1.35rem;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>				
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/info/info.css"/>
+		<script src="../../js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			(function(win,doc){
+		//浏览器缩放时
+		win.onresize=function(){
+			change();	
+		};
+		change();
+		function change(){
+			var oFs=doc.documentElement.clientWidth/(320/20);	
+			//设置根目录字体大小
+			doc.documentElement.style.fontSize=oFs+'px';	
+		}	
+	        })(window,document);
+		</script>
+	</head>
+	<body>
+		<header>			
+			<ul>
+				<li class="fan">
+					<a href="info4.html">
+					<img src="../../img/info/1-1.png"/></a>
+				</li>
+				<li class="click">充值详情<img class="li-img" src="../../img/info/1-2.png"/></li>
+				<li></li>
+			</ul>
+		</header>
+		<div class="date clear">2016年&nbsp;本月</div>
+		<ul class="article">
+			<li>
+				<ul class="clear">
+					<li class="li-single"><div>闪</div></li>
+					<li class="li-double">
+						<div>天天消消乐</div>
+						<div>闪注量充值</div><br />
+						<p>2017/7/6/14:24</p>
+					</li>
+					
+					<li>+20000条</li>
+				</ul>
+			</li>
+			
+			<li>
+				<ul class="clear">
+					<li class="li-single"><div class="back-red">短</div></li>
+					<li class="li-double">
+						<div class="bor-blue">大话西游</div>
+						<div>短信量充值</div><br />
+						<p>2017/7/6/14:24</p>
+					</li>
+					
+					<li class="color-red">+5000条</li>
+				</ul>
+			</li>
+			
+			<li>
+				<ul class="clear">
+					<li class="li-single"><div class="back-red">短</div></li>
+					<li class="li-double">
+						<div>天天消消乐</div>
+						<div>闪注量充值</div><br />
+						<p>2017/7/6/14:24</p>
+					</li>
+					
+					<li class="color-red">+1000条</li>
+				</ul>
+			</li>
+			
+			<li>
+				<ul class="clear">
+					<li class="li-single"><div>闪</div></li>
+					<li class="li-double">
+						<div class="bor-red">王者荣耀</div>
+						<div>闪注量充值</div><br />
+						<p>2017/7/6/14:24</p>
+					</li>
+					
+					<li>+10000条</li>
+				</ul>
+			</li>
+			
+			<div class="date">2016年&nbsp;6月</div>
+			
+			<li>
+				<ul class="clear">
+					<li class="li-single"><div>闪</div></li>
+					<li class="li-double">
+						<div class="bor-red">王者荣耀</div>
+						<div>闪注量充值</div><br />
+						<p>2017/7/6/14:24</p>
+					</li>
+					
+					<li>+10000条</li>
+				</ul>
+			</li>
+			
+		</ul>
+		
+		<div class="hite">
+			<div>
+				<input type="button" value="全部账户"/>
+				
+				<div class="ying"></div>
+				<div class="yong">应用</div>
+				<ul>
+					<li>天天消消乐</li>
+					<li>大话西游</li>
+					<li>王者荣耀</li>
+				</ul>
+												
+			</div>
+		</div>
+		
+		<script>
+		$("header ul .click").on("click",function(){
+			$(".hite").stop().slideDown(1000)
+		})
+		
+		$("header ul .fan").on("click",function(){
+			$(".hite").stop().slideUp(1000)
+		})
+			
+		</script>
+	</body>
+</html>

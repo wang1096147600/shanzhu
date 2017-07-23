@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta http-equiv="refresh" content="3">-->
+    <title>系统设置</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <link rel="stylesheet" href="../../css/base.css">
+    <link rel="stylesheet" href="../../css/set/set3.css">
+    <script src="../../js/fontSize.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+<body>
+<header>
+    <a href="#"></a>
+    <span>系统设置</span>
+</header>
+
+<div class="nav">
+    <div class="nav_left">
+        <div class="nav_logo">
+            <img src="../../img/set/longo-1.png" alt="">
+        </div>
+        <div class="urse">
+            <p id="user">*SZ1049</p>
+            <p class="person">
+                <a href="../home/home.html">个人用户</a>
+            </p>
+        </div>
+    </div>
+    <div class="nav_right">
+        <p class="red">
+            <a href="set2.html">
+              	  完善个人资料
+                <span class="grey">&gt;</span>
+            </a>
+        </p>
+    </div>
+</div>
+    <div class="ul_list">
+        <ul>
+            <li>
+                <p>
+                    修改登录密码
+                </p>
+                <a href="../pass/pass.html" class="grey">
+                    &gt;
+                </a>
+            </li>
+            <li>
+                <p>
+                    官方微信号
+                </p>
+                <a href="set.html" class="grey">
+                    &gt;
+                </a>
+            </li>
+            <li>
+                <a href="../../index.html" id="over">退出登录</a>
+            </li>
+        </ul>
+    </div>
+
+</body>
+<script>
+    var over = document.getElementById("over");
+    var user = document.getElementById("user");
+    over.onclick= function () {
+        user.innerHTML = "尚未登录"
+    }
+</script>
+</html>

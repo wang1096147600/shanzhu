@@ -1,0 +1,41 @@
+ <!DOCTYPE html>
+<html ng-app="myApp">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/app.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/statistics.css"/>
+		<script src="../js/angular-1.4.6.min.js"></script>
+		<script src="../js/angular-route.min.js"></script>
+		<script src="../js/jquery-3.1.1.js"></script>
+		<script src="../js/statistics-controller.js"></script>
+		<script src="../js/route.js"></script>
+		<script src="../js/app.js"></script>
+		<script src="../js/statistics.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="header-nav">
+				<p>
+					<a href="../../../html/home/home.html">
+					&lt;</a>
+				</p>
+				<p id="dian">注册量统计&or;</p>
+			</div>
+			<div class="header-tu">
+				<img src="../img/statistics/1.png">
+			</div>
+		</header>
+		<div class="box">
+			<ul>
+				<li><a href="#/yi">今日注册量</a></li>
+				<li><a href="#/er">一周注册量</a></li>
+				<li><a href="#/san">一个月注册量</a></li>
+			</ul>
+		</div>
+		<div class="content" ng-view="">
+			
+		</div>
+	</body>
+</html>
